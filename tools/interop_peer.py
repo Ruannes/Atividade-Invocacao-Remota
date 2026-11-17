@@ -3,8 +3,8 @@
 
 Serve para a segunda parte da atividade -- "teste a sua implementação com a
 de um outro colega". Este arquivo NÃO importa o pacote ``rrp``: ele monta e
-desmonta os datagramas direto com ``struct``/``json``, seguindo
-``docs/PROTOCOLO.md``.
+desmonta os datagramas direto com ``struct``/``json``, seguindo o mesmo
+formato de mensagem descrito em ``rrp/message.py``.
 
 Uso como cliente (contra o servidor do colega)::
 

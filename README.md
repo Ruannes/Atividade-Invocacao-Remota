@@ -112,6 +112,6 @@ com o servidor da demonstração nem exigem rede externa.
 | `tests/test_interop.py` | 14 | interoperabilidade com uma implementação independente do protocolo |
 | `tests/test_cli.py` | 7 | comandos `server`, `client` e `demo` |
 
-Para testar a interoperabilidade com a implementação de um colega, há o
-script `tools/interop_peer.py` (implementação independente, que atua como
-cliente ou servidor); o formato do protocolo está em `docs/PROTOCOLO.md`.
+Para testar a interoperabilidade com a implementação de um colega, use o
+script `tools/interop_peer.py` (implementação independente do pacote `rrp`,
+que atua como cliente ou servidor).
