@@ -1,17 +1,3 @@
-"""Teste de interoperabilidade: valida a especificação contra uma
-implementação independente ("o colega").
-
-Este arquivo NÃO usa :mod:`rrp.message` nem :mod:`rrp.protocol` para montar
-ou desmontar datagramas: ele reimplementa o protocolo com ``struct`` e
-``json``, como faria alguém escrevendo em outra linguagem.
-
-* cliente independente -> nosso servidor
-* nosso cliente -> servidor independente
-
-Se estes testes passam, a implementação está aderente ao formato publicado
-e deve conversar com a implementação de outro colega.
-"""
-
 from __future__ import annotations
 
 import json
